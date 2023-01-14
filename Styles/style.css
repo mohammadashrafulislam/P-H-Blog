@@ -176,5 +176,19 @@ Header Styles
     }
     .blogs{
         grid-template-columns: repeat(2, 1fr);
+        margin: 80px;
+        margin-bottom: 0;
     }
+    .grid-blog-info{
+        gap: 46px;
+    }
+    .grid-blog-04, .grid-blog-03{
+        display: none;
+     }
+     .slider-icon{
+        padding-right: 90px;
+     }
+     .header-slide-arrow{
+        padding-right: 80px;
+     }
 }
