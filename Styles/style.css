@@ -55,7 +55,7 @@ Header Styles
     padding 37px;
     gap: 24px;
     margin: 80px 156px 0 156px;
-    padding-bottom: 92px;
+    padding-bottom: 20px;
    }
 .angle-arrow{
     background-color:black;
@@ -66,6 +66,27 @@ Header Styles
 }
 .grid-blog-01{
     background-image:  linear-gradient(180deg, rgba(242, 0, 116, 0) 40%, #F20074 100.94%), url('../images/Blogs-1/Blog-1.png');
+    background-repeat: no-repeat;
+    background-size:width: 264px;
+    height: 335px;
+    border-radius: 10px;
+}
+.grid-blog-02{
+    background-image:  linear-gradient(180deg, rgba(242, 0, 116, 0) 40%, #F20074 100.94%), url('../images/Blogs-1/Blog-2.png');
+    background-repeat: no-repeat;
+    background-size:width: 264px;
+    height: 335px;
+    border-radius: 10px;
+}
+.grid-blog-03{
+    background-image:  linear-gradient(180deg, rgba(242, 0, 116, 0) 40%, #F20074 100.94%), url('../images/Blogs-1/Blog-3.png');
+    background-repeat: no-repeat;
+    background-size:width: 264px;
+    height: 335px;
+    border-radius: 10px;
+}
+.grid-blog-04{
+    background-image:  linear-gradient(180deg, rgba(242, 0, 116, 0) 40%, #F20074 100.94%), url('../images/Blogs-1/Blog-4.png');
     background-repeat: no-repeat;
     background-size:width: 264px;
     height: 335px;
@@ -100,4 +121,60 @@ Header Styles
 }
 .go{
     color: #fff;
+}
+.slider-icon {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: end;
+    padding-right: 156px;
+}
+/* Header Responsive Mobile */
+@media screen and (max-width:576px) {
+    .nav{
+        padding: 10px;
+        align-items: center;
+    }
+    .logo img {
+        width: 80%;
+    }
+    .menu li {
+        padding-left: 10px;
+    }   
+    .Header-details {
+        padding: 20px;
+    }
+    .header-slide-arrow {
+        padding-right: 31px;
+ }
+ .blogs{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 80px;
+    margin-bottom: 0;
+ }
+ .author-01, .author-02, .author-03, .author-04 {
+    padding: 23px 15px 140px;
+ }
+ .grid-blog-info{
+    gap: 60px;
+ }
+ .grid-blog-01, .grid-blog-02, .grid-blog-03{
+    display: none;
+ }
+
+
+}
+
+/* Header Responsive Tab */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav{
+        padding: 40px;
+        align-items: center;
+    }
+    .Header-details {
+        padding-right: 135px;
+        padding-left: 40px;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
