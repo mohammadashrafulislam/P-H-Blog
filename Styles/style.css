@@ -67,28 +67,28 @@ Header Styles
 .grid-blog-01{
     background-image:  linear-gradient(180deg, rgba(242, 0, 116, 0) 40%, #F20074 100.94%), url('../images/Blogs-1/Blog-1.png');
     background-repeat: no-repeat;
-    background-size:width: 264px;
+    background-size:cover;
     height: 335px;
     border-radius: 10px;
 }
 .grid-blog-02{
     background-image:  linear-gradient(180deg, rgba(242, 0, 116, 0) 40%, #F20074 100.94%), url('../images/Blogs-1/Blog-2.png');
     background-repeat: no-repeat;
-    background-size:width: 264px;
+    background-size:cover;
     height: 335px;
     border-radius: 10px;
 }
 .grid-blog-03{
     background-image:  linear-gradient(180deg, rgba(242, 0, 116, 0) 40%, #F20074 100.94%), url('../images/Blogs-1/Blog-3.png');
     background-repeat: no-repeat;
-    background-size:width: 264px;
+    background-size:cover;
     height: 335px;
     border-radius: 10px;
 }
 .grid-blog-04{
     background-image:  linear-gradient(180deg, rgba(242, 0, 116, 0) 40%, #F20074 100.94%), url('../images/Blogs-1/Blog-4.png');
     background-repeat: no-repeat;
-    background-size:width: 264px;
+    background-size:cover;
     height: 335px;
     border-radius: 10px;
 }
@@ -182,6 +182,7 @@ Header Styles
     .grid-blog-info{
         gap: 46px;
     }
+    
     .grid-blog-04, .grid-blog-03{
         display: none;
      }
